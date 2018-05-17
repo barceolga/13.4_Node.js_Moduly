@@ -18,7 +18,7 @@ function getOSinfo() {
   console.log('CPU model:', cpu);
   console.log(timeInfo.print(uptime));
   console.log('User name:', userInfo.username);
-  console.log('Home dir:', userInfo.homedir)
+  console.log('Home dir:', userInfo.homedir);
 }
 
 exports.print = getOSinfo;
